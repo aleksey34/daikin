@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/*
+Theme Name: Daikin  child theme OceanWP
+Template: oceanWP
+Description: Дочерняя тема для темы OceanWP  site Daikin
+Author: Aleksey34
+Version: 1.0
+*/
+/* импортируем стили родительской темы */
+/*@import url("../oceanwp/style.css");*/
+/* Свои дополнительные стили */
+/*.foo{ color:red; }*/
+/**{color: red !important;}*/
+.daikin-top-nav-panel {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 1px 2px 0 #fbfbfb; }
+  .daikin-top-nav-panel .daikin-top-nav-logo-location {
+    flex: 1 0 auto;
+    display: flex;
+    position: relative;
+    background-image: linear-gradient(135deg, black 25px, #329af2 25px, #329af2 38px, transparent 38px); }
+    .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo {
+      width: 182px;
+      height: 55px;
+      color: #329af2;
+      padding: 0;
+      margin: 0;
+      text-indent: 22px;
+      display: flex;
+      flex-flow: wrap;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start; }
+      .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo:after, .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo:before {
+        display: none !important; }
+      .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo:hover {
+        color: #329af2; }
+      .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo span {
+        margin-left: 30px; }
+        .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo span:first-child {
+          font-style: italic;
+          font-weight: 900;
+          font-size: 35px;
+          line-height: 20px;
+          padding-top: 11px;
+          display: inline-block;
+          margin-left: 19px;
+          text-transform: uppercase; }
+        .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo span:last-child {
+          font-size: 10px;
+          font-style: italic;
+          text-align: center;
+          padding-left: 18px; }
+    .daikin-top-nav-panel .daikin-top-nav-logo-location a {
+      cursor: pointer;
+      color: #000;
+      padding-left: 20px;
+      padding-top: 8px;
+      font-size: 18px; }
+      .daikin-top-nav-panel .daikin-top-nav-logo-location a:hover {
+        color: #1a1a1a; }
+      .daikin-top-nav-panel .daikin-top-nav-logo-location a:after {
+        top: 8px;
+        margin-left: 4px;
+        margin-right: 4px;
+        display: inline-block;
+        transition: all 0.5s;
+        cursor: pointer;
+        content: '';
+        width: 20px;
+        height: 20px;
+        background-color: transparent;
+        border-radius: 50% 50% 50% 0;
+        border: 6px solid #329af2;
+        transform: rotate(-45deg); }
+      .daikin-top-nav-panel .daikin-top-nav-logo-location a:hover:after {
+        border: 6px solid #0e81e3; }
+  .daikin-top-nav-panel .daikin-top-nav-phone {
+    display: flex;
+    flex: 1 0 300px;
+    flex-flow: wrap;
+    justify-content: space-around; }
+    .daikin-top-nav-panel .daikin-top-nav-phone a {
+      color: #000;
+      font-size: 16px;
+      font-weight: bold; }
+      .daikin-top-nav-panel .daikin-top-nav-phone a:hover {
+        color: #1a1a1a; }
+  .daikin-top-nav-panel .daikin-top-nav-btn {
+    display: flex;
+    flex: 1 0 300px;
+    flex-flow: wrap; }
+    .daikin-top-nav-panel .daikin-top-nav-btn a.elementor-icon {
+      margin-left: 5px; }
+    .daikin-top-nav-panel .daikin-top-nav-btn .daikin-call-contact-us-btn {
+      color: #000;
+      margin-left: auto;
+      cursor: pointer;
+      text-transform: uppercase;
+      background-color: #fff;
+      transition: all 0.5s;
+      padding: 3px 10px;
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #329AF2;
+      border-radius: 10px;
+      font-size: 16px; }
+      .daikin-top-nav-panel .daikin-top-nav-btn .daikin-call-contact-us-btn:hover {
+        background-color: #74C0FC; }
+
+#testimonial-section .elementor-image-carousel-caption {
+  position: relative;
+  width: 330px !important;
+  height: 295px !important;
+  padding: 35px 15px 25px 18px;
+  border: 1px solid #000;
+  border-radius: 80px 80px 80px 0;
+  text-align: start;
+  margin: auto auto 30px auto !important; }
+  #testimonial-section .elementor-image-carousel-caption b {
+    display: inline;
+    margin-top: auto; }
+#testimonial-section .elementor-image-carousel-caption:first-line {
+  font-weight: bold; }
+#testimonial-section .elementor-image-carousel-caption:before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 51px;
+  height: 44px;
+  z-index: 99999;
+  bottom: -15px;
+  left: -21px;
+  background: url("img/testimonials-corner.png") no-repeat;
+  background-size: 51px 44px;
+  transform: scale(0.7); }
+
+@media screen and (max-width: 600px) {
+  #testimonial-section .elementor-image-carousel-caption {
+    width: 205px !important;
+    height: 330px !important;
+    transform: scale(0.7); }
+    #testimonial-section .elementor-image-carousel-caption:before {
+      content: none;
+      transform: scale(0.7);
+      display: none;
+      background-image: none;
+      background-color: transparent; } }
+.footer-box .footer-widget.widget_nav_menu li {
+  display: flex;
+  justify-content: center; }
+
+.footer-box:nth-of-type(4) .footer-widget.widget_media_image {
+  display: flex;
+  justify-content: center; }
+
+#links-section ul li {
+  padding: 7px 10px;
+  background-color: #e6f3ff; }
+
+#links-section ul li:nth-of-type(2n) {
+  background-color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

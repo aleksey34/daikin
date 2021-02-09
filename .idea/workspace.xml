@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bde0f4e8-bc43-4e0c-a0e4-7c5e70fdf814" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/htmlburger/carbon-fields" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1o1iY6c5qDfgdjiT2E7Eak54mmv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\daikin\wp-content\themes\daikin" />
+      <recent name="C:\OpenServer\domains\daikin\wp-content\themes\daikin\inc" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bde0f4e8-bc43-4e0c-a0e4-7c5e70fdf814" name="Default Changelist" comment="" />
+      <created>1612460541843</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612460541843</updated>
+      <workItem from="1612460542997" duration="2704000" />
+      <workItem from="1612512079882" duration="2629000" />
+      <workItem from="1612539767202" duration="112000" />
+      <workItem from="1612541204009" duration="1134000" />
+      <workItem from="1612600279499" duration="962000" />
+      <workItem from="1612686304995" duration="10092000" />
+      <workItem from="1612771336728" duration="2164000" />
+      <workItem from="1612799425586" duration="12914000" />
+      <workItem from="1612857179526" duration="3945000" />
+      <workItem from="1612885181440" duration="2769000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="563" y="236" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1612800662580">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="563" y="236" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612800662580" />
+    <state x="523" y="188" key="EditFileWatcherDialog" timestamp="1612720566619">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="523" y="188" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612720566619" />
+    <state x="218" y="0" key="SettingsEditor" timestamp="1612771634663">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="218" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612771634663" />
+    <state x="453" y="0" width="1009" height="1470" key="search.everywhere.popup" timestamp="1612806568187">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="453" y="0" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612806568187" />
+  </component>
+</project>

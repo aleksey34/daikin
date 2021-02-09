@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEE,sDAAiC;EACnC,KAAK,EAAE,IAAI;EACP,MAAM,EAAE,IAAI;EAChB,KAAK,EAAE,GAAG",
+"sources": ["testimonials-elementor-carousel.scss"],
+"names": [],
+"file": "testimonials-elementor-carousel.css"
+}

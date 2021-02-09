@@ -1,0 +1,19 @@
+/*
+Theme Name: Daikin  child theme OceanWP
+Template: oceanWP
+Description: Дочерняя тема для темы OceanWP  site Daikin
+Author: Aleksey34
+Version: 1.0
+*/
+
+/* импортируем стили родительской темы */
+/*@import url("../oceanwp/style.css");*/
+
+/* Свои дополнительные стили */
+/*.foo{ color:red; }*/
+/**{color: red !important;}*/
+
+@import "scss/top-nav-panel";
+@import "scss/testimonials-elementor-carousel";
+@import "scss/footer";
+@import "scss/links-section";
