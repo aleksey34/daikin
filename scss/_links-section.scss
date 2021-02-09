@@ -1,8 +1,12 @@
-#links-section ul li{
+#links-section ul li  , .price-section ul li{
   padding: 7px 10px;
   background-color: #e6f3ff;
 
 }
-#links-section ul li:nth-of-type(2n){
+#links-section ul li:nth-of-type(2n) , #price-section ul li:nth-of-type(2n){
   background-color: #fff;
+}
+#price-section ul li:first-child{
+color: red;
+
 }
