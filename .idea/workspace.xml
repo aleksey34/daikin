@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde0f4e8-bc43-4e0c-a0e4-7c5e70fdf814" name="Default Changelist" comment="" />
+    <list default="true" id="bde0f4e8-bc43-4e0c-a0e4-7c5e70fdf814" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_links-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_el-table-sections.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +42,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/htmlburger/carbon-fields" />
@@ -30,15 +57,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scss" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\daikin\wp-content\themes\daikin\scss" />
       <recent name="C:\OpenServer\domains\daikin\wp-content\themes\daikin" />
       <recent name="C:\OpenServer\domains\daikin\wp-content\themes\daikin\inc" />
     </key>
@@ -60,22 +92,41 @@
       <workItem from="1612771336728" duration="2164000" />
       <workItem from="1612799425586" duration="12914000" />
       <workItem from="1612857179526" duration="3945000" />
-      <workItem from="1612885181440" duration="4593000" />
+      <workItem from="1612885181440" duration="4755000" />
+      <workItem from="1612890864028" duration="14000" />
+      <workItem from="1612890879837" duration="613000" />
+      <workItem from="1612891514660" duration="1170000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="563" y="236" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1612800662580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="563" y="236" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612800662580" />
-    <state x="523" y="188" key="EditFileWatcherDialog" timestamp="1612720566619">
+    <state x="523" y="188" key="EditFileWatcherDialog" timestamp="1612891193131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="523" y="188" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612720566619" />
+    <state x="523" y="188" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612891193131" />
+    <state x="634" y="154" key="FileChooserDialogImpl" timestamp="1612890875680">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="634" y="154" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612890875680" />
     <state x="218" y="0" key="SettingsEditor" timestamp="1612771634663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
