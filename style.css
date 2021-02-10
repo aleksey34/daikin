@@ -29,7 +29,7 @@ Version: 1.0
       color: #329af2;
       padding: 0;
       margin: 0;
-      text-indent: 22px;
+      text-indent: 30px;
       display: flex;
       flex-flow: wrap;
       flex-direction: column;
@@ -54,11 +54,11 @@ Version: 1.0
           font-size: 10px;
           font-style: italic;
           text-align: center;
-          padding-left: 18px; }
+          padding-left: 7px; }
     .daikin-top-nav-panel .daikin-top-nav-logo-location a {
       cursor: pointer;
       color: #000;
-      padding-left: 20px;
+      padding-left: 0;
       padding-top: 8px;
       font-size: 18px; }
       .daikin-top-nav-panel .daikin-top-nav-logo-location a:hover {
@@ -141,17 +141,13 @@ Version: 1.0
   background-size: 51px 44px;
   transform: scale(0.7); }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   #testimonial-section .elementor-image-carousel-caption {
-    width: 205px !important;
-    height: 330px !important;
-    transform: scale(0.7); }
+    height: 350px !important;
+    transform: scale(0.7);
+    font-size: 18px; }
     #testimonial-section .elementor-image-carousel-caption:before {
-      content: none;
-      transform: scale(0.7);
-      display: none;
-      background-image: none;
-      background-color: transparent; } }
+      transform: scale(0.7); } }
 .footer-box .footer-widget.widget_nav_menu li {
   display: flex;
   justify-content: center; }
@@ -160,22 +156,71 @@ Version: 1.0
   display: flex;
   justify-content: center; }
 
-#links-section ul li, #price-section ul li {
-  padding: 7px 10px;
+#footer .daikin-top-nav-logo-location {
+  flex: 1 0 auto;
+  display: flex;
+  position: relative;
+  background-image: linear-gradient(135deg, black 25px, #329af2 25px, #329af2 38px, transparent 38px); }
+  #footer .daikin-top-nav-logo-location a.logo {
+    width: 182px;
+    height: 55px;
+    color: #329af2;
+    padding: 0;
+    margin: 0;
+    text-indent: 30px;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; }
+    #footer .daikin-top-nav-logo-location a.logo:after, #footer .daikin-top-nav-logo-location a.logo:before {
+      display: none !important; }
+    #footer .daikin-top-nav-logo-location a.logo:hover {
+      color: #329af2; }
+    #footer .daikin-top-nav-logo-location a.logo span {
+      margin-left: 30px; }
+      #footer .daikin-top-nav-logo-location a.logo span:first-child {
+        font-style: italic;
+        font-weight: 900;
+        font-size: 35px;
+        line-height: 20px;
+        padding-top: 11px;
+        display: inline-block;
+        margin-left: 19px;
+        text-transform: uppercase; }
+      #footer .daikin-top-nav-logo-location a.logo span:last-child {
+        font-size: 10px;
+        font-style: italic;
+        text-align: center;
+        padding-left: 18px; }
+
+#links-section ul > li {
+  padding: 10px 15px;
   background-color: #e6f3ff; }
 
-#links-section ul li:nth-of-type(2n), #price-section ul li:nth-of-type(2n) {
+#price-section ul > li {
+  background-color: #e6f3ff;
+  padding: 14px 15px; }
+
+#price-section ul li:nth-of-type(2n) {
   background-color: #fff; }
 
-#price-section ul li > span {
+#links-section ul li:nth-of-type(2n) {
+  background-color: #fff; }
+
+#price-section ul li > * {
   display: flex;
   justify-content: space-between;
   width: 100%; }
 
-#price-section ul li:first-child > span {
+#price-section ul li:first-child > * {
   display: flex;
   justify-content: space-around;
   font-weight: 800;
   font-size: 1.4rem; }
+
+#price-section ul li > * > * {
+  padding: 0;
+  margin: 0; }
 
 /*# sourceMappingURL=style.css.map */

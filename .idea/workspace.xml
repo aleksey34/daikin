@@ -21,7 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="bde0f4e8-bc43-4e0c-a0e4-7c5e70fdf814" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/carbon-custom-fields-options/theme-option.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/carbon-custom-fields-options/theme-option.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_el-table-sections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_el-table-sections.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_testimonials-elementor-carousel.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_testimonials-elementor-carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_testimonials-elementor-carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_top-nav-panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_top-nav-panel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-part/top-nav-panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-part/top-nav-panel.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +100,9 @@
       <workItem from="1612885181440" duration="4755000" />
       <workItem from="1612890864028" duration="14000" />
       <workItem from="1612890879837" duration="613000" />
-      <workItem from="1612891514660" duration="3213000" />
+      <workItem from="1612891514660" duration="4900000" />
+      <workItem from="1612945516434" duration="2822000" />
+      <workItem from="1612971487694" duration="5109000" />
     </task>
     <servers />
   </component>
@@ -116,6 +126,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="563" y="236" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612800662580" />
+    <state x="559" y="154" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1612974304403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="559" y="154" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612974304403" />
     <state x="523" y="188" key="EditFileWatcherDialog" timestamp="1612891193131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -128,6 +142,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="218" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612771634663" />
+    <state x="448" y="232" key="run.anything.popup" timestamp="1612973976455">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="448" y="232" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612973976455" />
     <state x="453" y="0" width="1009" height="1470" key="search.everywhere.popup" timestamp="1612806568187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

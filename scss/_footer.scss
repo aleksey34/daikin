@@ -7,3 +7,84 @@
   display: flex;
   justify-content: center;
 }
+#footer{
+
+  .daikin-top-nav-logo-location{
+    flex: 1 0 auto;
+    display: flex;
+    position: relative;
+    background-image: linear-gradient(135deg , black 25px , #329af2 25px , #329af2 38px , transparent 38px) ;
+    a.logo{
+      width: 182px;
+      height: 55px;
+      color:#329af2;
+      padding: 0;
+      margin: 0;
+      text-indent: 30px;
+      display: flex;
+      flex-flow: wrap;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      &:after , &:before{display: none !important}
+      &:hover{color:#329af2;}
+      & span{
+        margin-left: 30px;
+        &:first-child{
+          font-style: italic;
+          font-weight:900;
+          font-size:35px;
+          line-height: 20px;
+          padding-top: 11px;
+          display: inline-block;
+          margin-left: 19px;
+          text-transform: uppercase;
+        }
+        &:last-child{
+          font-size: 10px;
+          font-style: italic;
+          text-align: center;
+          padding-left: 18px;
+        }
+      }
+    }
+
+
+    //a{
+    //  cursor: pointer;
+    //  color: #000;
+    //  padding-left: 20px;
+    //  padding-top: 8px;
+    //  font-size:18px;
+    //
+    //  &:hover{
+    //    color: lighten(#000 , 10%);
+    //  }
+    //  &:after{
+    //    //position: absolute;
+    //    top: 8px ;
+    //    //right: -25px;
+    //    //margin-left: 5px;
+    //    margin-left: 4px;
+    //    margin-right: 4px;
+    //    display: inline-block;
+    //    transition: all 0.5s;
+    //    cursor: pointer;
+    //    content: '';
+    //    width: 20px;
+    //    height: 20px;
+    //    background-color: transparent;
+    //    border-radius: 50% 50% 50% 0;
+    //    border: 6px solid #329af2;
+    //    transform: rotate(-45deg);
+    //  }
+    //  &:hover:after{
+    //    border: 6px solid darken(#329af2  , 10%);
+    //  }
+    //}
+
+  }
+
+
+
+}

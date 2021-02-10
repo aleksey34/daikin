@@ -43,19 +43,20 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   #testimonial-section{
 
     .elementor-image-carousel-caption {
-      width:205px !important;
-      height: 330px !important;
+     // width:205px !important;
+      height: 350px !important;
      transform: scale(0.7);
+      font-size:18px;
          &:before{
-           content: none;
+           //content:'';
            transform: scale(0.7);
-           display: none;
-           background-image: none;
-           background-color: transparent;
+           //display: none;
+         //  background-image: none;
+           //background-color: transparent;
          }
       }
     }

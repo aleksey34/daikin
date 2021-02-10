@@ -7,23 +7,51 @@ use Carbon_Fields\Field;
 
 
 Container::make( 'theme_options', __( 'Theme Options' ) )
-	->set_icon("dashicons-admin-generic")
+//	->set_icon("dashicons-admin-generic")
+    ->set_icon("dashicons-carrot")
 	->add_tab( __( "Header" , "mind" ), array(
-		Field::make( 'image', 'mind_header_logo_image', __( 'Logo Image' , "mind" ) ),
-		Field::make( 'text', 'mind_site_name', __( 'Site Name' , "mind" ) ),
-		Field::make( 'text', 'mind_site_desc', __( 'Site Description' , "mind" ) ),
+//		Field::make( 'image', 'mind_header_logo_image', __( 'Logo Image' , "mind" ) ),
+//		Field::make( 'text', 'mind_site_name', __( 'Site Name' , "mind" ) ),
+//		Field::make( 'text', 'mind_site_desc', __( 'Site Description' , "mind" ) ),
+//
+//		Field::make( 'color', 'mind_header_background_color', __( 'Header Background Color' , "mind" ) )
+//			->set_width(40),
+//		Field::make( 'image', 'mind_header_background_img', __( 'Header Background Image' , "mind" ) )
+//			->set_width(40),
+//		Field::make( 'checkbox', 'mind_header_background_repeat', __( 'Background repeat or not ?' , "mind" ) )
+//			->set_width(20),
 
-		Field::make( 'color', 'mind_header_background_color', __( 'Header Background Color' , "mind" ) )
-			->set_width(40),
-		Field::make( 'image', 'mind_header_background_img', __( 'Header Background Image' , "mind" ) )
-			->set_width(40),
-		Field::make( 'checkbox', 'mind_header_background_repeat', __( 'Background repeat or not ?' , "mind" ) )
-			->set_width(20),
+
+        Field::make( 'text', 'crb_first_phone_for_href', __( 'Первый телефон для ссылки-формат +7.... ' ) )
+            ->set_default_value( '+74993903775' ),
+
+        Field::make( 'text', 'crb_first_phone', __( 'Первый телефон для показа' ) )
+            ->set_default_value( '8 (499) 390-37-75' ),
+
+        Field::make( 'text', 'crb_second_phone_for_href', __( 'Второй телефон для ссылки-формат +7.... ' ) )
+            ->set_default_value( '+79262701720' ),
+        Field::make( 'text', 'crb_second_phone', __( 'Второй телефон для показа' ) )
+            ->set_default_value( '8 (926) 270-17-20' ),
+
+        Field::make( 'text', 'crb_third_phone', __( 'Телефон для иконки-формат +7.... ' ) )
+            ->set_default_value( '+79262701720' ),
+
+        Field::make( 'text', 'crb_telegram_name', __( 'Имя в телеграм без  @' ) )
+            ->set_default_value( 'daikinsevices' ),
+
+        Field::make( 'text', 'crb_whatsapp_phone', __( 'Телефон для Whatsapp-формат +7.... ' ) )
+            ->set_default_value( '+79262701720' ),
+
+        Field::make( 'text', 'crb_call_href', __( 'Ссылка для кнопки -вызвать специалиста' ) )
+            ->set_default_value( 'https://daikin.ru' ),
 
 	) )
 	->add_tab( __( 'Footer' , "mind" ), array(
-		Field::make( 'text', 'crb_email', __( 'Notification Email' ) ),
-		Field::make( 'text', 'crb_phone', __( 'Phone Number' ) ),
+//		Field::make( 'text', 'crb_first_phone', __( 'Notification Email' ) ),
+//		Field::make( 'text', 'crb_second_phone', __( 'Phone Number' ) ),
+//        Field::make( 'text', 'crb_third_phone', __( 'Phone Number' ) ),
+//        Field::make( 'text', 'crb_telegram_url', __( 'Phone Number' ) ),
+//        Field::make( 'text', 'crb_whatsapp_phone', __( 'Phone Number' ) ),
 	) );
 
 
