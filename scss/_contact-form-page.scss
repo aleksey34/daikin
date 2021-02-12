@@ -1,0 +1,32 @@
+form{
+  p{
+    //input[type=text] , input[type=tel]{
+    //  border-top: none;
+    //  border-right: none;
+    //  border-left:none;
+    //  border-radius:0;
+    //}
+  }
+}
+
+#formSubmitBtn{
+@include custom-btn(10px , #fff , #74C0FC);
+}
+
+
+#formNameField{
+  @extend %form-field;
+}
+
+#formTelField{
+  @extend %form-field;
+}
+
+#formMessageField{
+
+}
+
+
+#formAgreeField , #formAgreeField+ span {
+ margin: 15px 0 ;
+}

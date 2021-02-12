@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*
 Theme Name: Daikin  child theme OceanWP
-Template: oceanWP
+Template: oceanwp
 Description: Дочерняя тема для темы OceanWP  site Daikin
 Author: Aleksey34
 Version: 1.0
@@ -11,6 +11,12 @@ Version: 1.0
 /* Свои дополнительные стили */
 /*.foo{ color:red; }*/
 /**{color: red !important;}*/
+#formNameField, #formTelField {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0; }
+
 .daikin-top-nav-panel {
   display: flex;
   justify-content: space-around;
@@ -23,38 +29,35 @@ Version: 1.0
     display: flex;
     position: relative;
     background-image: linear-gradient(135deg, black 25px, #329af2 25px, #329af2 38px, transparent 38px); }
-    .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo {
+    .daikin-top-nav-panel .daikin-top-nav-logo-location span.logo, .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo, .daikin-top-nav-panel .daikin-top-nav-logo-location .logo {
       width: 182px;
       height: 55px;
       color: #329af2;
-      padding: 0;
-      margin: 0;
-      text-indent: 30px;
+      margin: 0 10px 0 0;
       display: flex;
       flex-flow: wrap;
       flex-direction: column;
       justify-content: flex-start;
-      align-items: flex-start; }
-      .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo:after, .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo:before {
+      align-items: flex-start;
+      padding: 0 0 0 45px; }
+      .daikin-top-nav-panel .daikin-top-nav-logo-location span.logo:after, .daikin-top-nav-panel .daikin-top-nav-logo-location span.logo:before, .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo:after, .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo:before, .daikin-top-nav-panel .daikin-top-nav-logo-location .logo:after, .daikin-top-nav-panel .daikin-top-nav-logo-location .logo:before {
         display: none !important; }
-      .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo:hover {
+      .daikin-top-nav-panel .daikin-top-nav-logo-location span.logo:hover, .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo:hover, .daikin-top-nav-panel .daikin-top-nav-logo-location .logo:hover {
         color: #329af2; }
-      .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo span {
-        margin-left: 30px; }
-        .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo span:first-child {
+      .daikin-top-nav-panel .daikin-top-nav-logo-location span.logo > *, .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo > *, .daikin-top-nav-panel .daikin-top-nav-logo-location .logo > * {
+        display: inline-block; }
+        .daikin-top-nav-panel .daikin-top-nav-logo-location span.logo > *:first-child, .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo > *:first-child, .daikin-top-nav-panel .daikin-top-nav-logo-location .logo > *:first-child {
+          font-family: Roboto , sans-serif;
           font-style: italic;
           font-weight: 900;
           font-size: 35px;
           line-height: 20px;
           padding-top: 11px;
-          display: inline-block;
-          margin-left: 19px;
           text-transform: uppercase; }
-        .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo span:last-child {
+        .daikin-top-nav-panel .daikin-top-nav-logo-location span.logo > *:last-child, .daikin-top-nav-panel .daikin-top-nav-logo-location a.logo > *:last-child, .daikin-top-nav-panel .daikin-top-nav-logo-location .logo > *:last-child {
           font-size: 10px;
           font-style: italic;
-          text-align: center;
-          padding-left: 7px; }
+          text-align: center; }
     .daikin-top-nav-panel .daikin-top-nav-logo-location a {
       cursor: pointer;
       color: #000;
@@ -117,12 +120,14 @@ Version: 1.0
 #testimonial-section .elementor-image-carousel-caption {
   position: relative;
   width: 330px !important;
-  height: 295px !important;
+  height: 310px !important;
   padding: 35px 15px 25px 18px;
   border: 1px solid #000;
   border-radius: 80px 80px 80px 0;
   text-align: start;
-  margin: auto auto 30px auto !important; }
+  font-size: 16px;
+  margin: auto auto 30px auto !important;
+  background-color: transparent; }
   #testimonial-section .elementor-image-carousel-caption b {
     display: inline;
     margin-top: auto; }
@@ -132,22 +137,23 @@ Version: 1.0
   position: absolute;
   content: '';
   display: block;
-  width: 51px;
-  height: 44px;
-  z-index: 99999;
-  bottom: -15px;
-  left: -21px;
-  background: url("img/testimonials-corner.png") no-repeat;
-  background-size: 51px 44px;
-  transform: scale(0.7); }
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  width: 25px;
+  height: 50px;
+  z-index: 99;
+  bottom: -17px;
+  left: -1px;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-image: linear-gradient(245deg, transparent 20px, #fff 20px);
+  transform: skewY(-52deg); }
 
 @media screen and (max-width: 400px) {
   #testimonial-section .elementor-image-carousel-caption {
-    height: 350px !important;
-    transform: scale(0.7);
-    font-size: 18px; }
-    #testimonial-section .elementor-image-carousel-caption:before {
-      transform: scale(0.7); } }
+    width: 255px !important;
+    height: 370px !important;
+    font-size: 16px; } }
 .footer-box .footer-widget.widget_nav_menu li {
   display: flex;
   justify-content: center; }
@@ -222,5 +228,17 @@ Version: 1.0
 #price-section ul li > * > * {
   padding: 0;
   margin: 0; }
+
+#formSubmitBtn {
+  border-radius: 10px;
+  background-color: #fff;
+  transition: all 0.5s;
+  border: 1px solid #329AF2;
+  color: #000; }
+  #formSubmitBtn:hover {
+    background-color: #74C0FC; }
+
+#formAgreeField, #formAgreeField + span {
+  margin: 15px 0; }
 
 /*# sourceMappingURL=style.css.map */

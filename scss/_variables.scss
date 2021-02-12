@@ -1,0 +1,18 @@
+%form-field{
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    border-radius:0;
+}
+
+@mixin custom-btn($round , $color , $color-hover){
+border-radius: $round;
+    background-color: $color;
+    transition: all 0.5s;
+    border: 1px solid #329AF2;
+    color: #000;
+    &:hover{
+        background-color: $color-hover;
+    }
+
+}

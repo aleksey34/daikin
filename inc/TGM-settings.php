@@ -129,10 +129,15 @@ function daikin_register_required_plugins() {
 			'required'  => true,
 		),
         array(
-			'name'      => 'Elementor',
-			'slug'      => 'elementor',
-			'required'  => true,
-		),
+            'name'      => 'Elementor',
+            'slug'      => 'elementor',
+            'required'  => true,
+        ),
+        array(
+            'name'      => 'Contact Form 7',
+            'slug'      => 'contact-form-7',
+            'required'  => true,
+        ),
 //		array(
 //			'name'      => 'WooCommerce',
 //			'slug'      => 'woocommerce',

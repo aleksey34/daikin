@@ -5,42 +5,43 @@
   padding: 10px;
   border-bottom:1px solid #eee;
   box-shadow: 0 1px 2px 0 lighten(#eee , 5%);
+
   .daikin-top-nav-logo-location{
     flex: 1 0 auto;
     display: flex;
     position: relative;
     background-image: linear-gradient(135deg , black 25px , #329af2 25px , #329af2 38px , transparent 38px) ;
-    a.logo{
+    span.logo, a.logo , .logo{
       width: 182px;
       height: 55px;
       color:#329af2;
-      padding: 0;
-      margin: 0;
-      text-indent: 30px;
+      margin: 0 10px 0 0 ;
       display: flex;
       flex-flow: wrap;
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
+      padding: 0 0 0 45px;
       &:after , &:before{display: none !important}
       &:hover{color:#329af2;}
-      & span{
-        margin-left: 30px;
+      & > *{
+        //margin-left: 30px;
+        display: inline-block;
         &:first-child{
+          font-family: Roboto , sans-serif;
          font-style: italic;
           font-weight:900;
           font-size:35px;
           line-height: 20px;
           padding-top: 11px;
-          display: inline-block;
-          margin-left: 19px;
+          //padding-left: 45px;
           text-transform: uppercase;
         }
         &:last-child{
          font-size: 10px;
           font-style: italic;
           text-align: center;
-          padding-left: 7px;
+          //padding-left: 69px;
         }
       }
     }
@@ -105,16 +106,7 @@
     flex: 1 0 300px;
     flex-flow: wrap;
     a.elementor-icon{
-      //vertical-align: text-top;
-      //font-size: 32px;
       margin-left: 5px;
-      //color: #329af2;
-//&:nth-of-type(3){
-//  color:#23d154;
-//  font-size: 38px;
-//  line-height:1;
-//  padding-top: 7px;
-//}
     }
     .daikin-call-contact-us-btn{
       color: #000;

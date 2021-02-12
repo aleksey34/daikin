@@ -1,10 +1,17 @@
 <div class="daikin-top-nav-panel">
     <div class="daikin-top-nav-logo-location">
-        <a href="/" class="logo">
+        <?php if(is_front_page()) :  ?>
+        <a class="logo">
             <span>Daikin</span>
             <span>сервисный центр</span>
         </a>
-        <a href="#contact-section">Москва и МО</a>
+        <?php else:  ?>
+        <a href="<?php echo  home_url(); ?>" class="logo">
+            <span>Daikin</span>
+            <span>сервисный центр</span>
+        </a>
+        <?php endif; ?>
+        <a href="<?php echo home_url('#contact-section');  ?>">Москва и МО</a>
     </div>
     <div class="daikin-top-nav-phone">
         <?php $first_phone_for_href = carbon_get_theme_option( 'crb_first_phone_for_href' );
@@ -12,21 +19,18 @@
         <?php  if(isset($first_phone) && !empty($first_phone) &&
             isset($first_phone_for_href) && !empty($first_phone_for_href)) : ?>
         <a href="tel:<?php echo $first_phone_for_href;  ?>"><?php echo $first_phone ;  ?></a>
-<!--        <a href="tel:+74993903775">8 (499) 390-37-75</a>-->
         <?php endif;  ?>
         <?php $second_phone_for_href = carbon_get_theme_option( 'crb_second_phone_for_href' );
         $second_phone = carbon_get_theme_option( 'crb_second_phone' ); ?>
         <?php  if(isset($second_phone) && !empty($second_phone) &&
             isset($second_phone_for_href) && !empty($second_phone_for_href)) : ?>
             <a href="tel:<?php echo $second_phone_for_href;  ?>"><?php echo $second_phone ; ?></a>
-            <!--        <a href="tel:+79262701720">8 (926) 270-17-20</a>-->
         <?php endif;  ?>
     </div>
     <div class="daikin-top-nav-btn">
         <?php $third_phone = carbon_get_theme_option( 'crb_third_phone' ); ?>
         <?php  if(isset($third_phone) && !empty($third_phone)) : ?>
             <a class="elementor-icon" href="tel:<?php echo $third_phone ;  ?>">
-<!--            <a class="elementor-icon" href="tel:+79262701720">-->
                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <rect width="30" height="30" fill="url(#pattern0)"/>
                     <defs>
@@ -41,7 +45,6 @@
         <?php $telegram_name = carbon_get_theme_option( 'crb_telegram_name' ); ?>
         <?php  if(isset($telegram_name) && !empty($telegram_name)) : ?>
                     <a class="elementor-icon" href="https://t.me/<?php echo $telegram_name ;  ?>">
-<!--                    <a class="elementor-icon" href="https://t.me/aleksey3400">-->
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M15 0C6.71323 0 0 6.71419 0 15C0 23.2858 6.71419 30 15 30C23.2868 30 30 23.2858 30 15C30 6.71419 23.2858 0 15 0ZM22.3674 10.2765L19.9055 21.8777C19.7235 22.7003 19.2339 22.8997 18.5506 22.5126L14.8006 19.7487L12.9919 21.4906C12.7926 21.69 12.6232 21.8594 12.2361 21.8594L12.5023 18.0426L19.4516 11.7639C19.7545 11.4977 19.3848 11.3468 18.9852 11.6129L10.3965 17.0197L6.69484 15.8642C5.89065 15.6106 5.87226 15.06 6.86419 14.6729L21.3261 9.09581C21.9977 8.85387 22.5842 9.25935 22.3665 10.2755L22.3674 10.2765Z" fill="#329AF2"/>
                         </svg>
@@ -50,7 +53,6 @@
         <?php $whatsapp_phone = carbon_get_theme_option( 'crb_whatsapp_phone' ); ?>
         <?php  if(isset($whatsapp_phone) && !empty($whatsapp_phone)) : ?>
                     <a class="elementor-icon" href="https://wa.me/<?php  echo $whatsapp_phone; ?>">
-<!--                    <a class="elementor-icon" href="https://wa.me/+79262701720">-->
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.00602007 30L2.03402 22.548C0.697726 20.2573 -0.00433595 17.652 2.01483e-05 15C2.01483e-05 6.7155 6.71552 0 15 0C23.2845 0 30 6.7155 30 15C30 23.2845 23.2845 30 15 30C12.3492 30.0043 9.745 29.3027 7.45502 27.9675L0.00602007 30ZM9.58651 7.962C9.39281 7.97402 9.20353 8.02504 9.03001 8.11199C8.8673 8.20414 8.71876 8.31933 8.58901 8.45399C8.40901 8.62349 8.30702 8.77049 8.19752 8.91299C7.64313 9.63449 7.34493 10.5201 7.35002 11.43C7.35302 12.165 7.54502 12.8805 7.84502 13.5495C8.45851 14.9025 9.46801 16.335 10.8015 17.6625C11.1225 17.982 11.436 18.303 11.7735 18.6015C13.4286 20.0587 15.4009 21.1095 17.5335 21.6705L18.387 21.801C18.6645 21.816 18.942 21.795 19.221 21.7815C19.6579 21.7589 20.0844 21.6406 20.4705 21.435C20.6669 21.3338 20.8586 21.2237 21.045 21.105C21.045 21.105 21.1095 21.063 21.2325 20.97C21.435 20.82 21.5595 20.7135 21.7275 20.538C21.852 20.409 21.96 20.2575 22.0425 20.085C22.1595 19.8405 22.2765 19.374 22.3245 18.9855C22.3605 18.6885 22.35 18.5265 22.3455 18.426C22.3395 18.2655 22.206 18.099 22.0605 18.0285L21.1875 17.637C21.1875 17.637 19.8825 17.0685 19.086 16.7055C19.002 16.6689 18.912 16.648 18.8205 16.644C18.7179 16.6334 18.6142 16.645 18.5164 16.6779C18.4186 16.7107 18.329 16.7641 18.2535 16.8345V16.8315C18.246 16.8315 18.1455 16.917 17.061 18.231C16.9988 18.3146 16.913 18.3778 16.8147 18.4126C16.7164 18.4473 16.61 18.452 16.509 18.426C16.4113 18.3999 16.3155 18.3668 16.2225 18.327C16.0365 18.249 15.972 18.219 15.8445 18.1635L15.837 18.1605C14.9789 17.7858 14.1843 17.2798 13.482 16.6605C13.293 16.4955 13.1175 16.3155 12.9375 16.1415C12.3474 15.5763 11.8331 14.937 11.4075 14.2395L11.319 14.097C11.2554 14.0012 11.2041 13.8979 11.166 13.7895C11.109 13.569 11.2575 13.392 11.2575 13.392C11.2575 13.392 11.622 12.993 11.7915 12.777C11.9326 12.5975 12.0643 12.4107 12.186 12.2175C12.363 11.9325 12.4185 11.64 12.3255 11.4135C11.9055 10.3875 11.4705 9.36599 11.0235 8.35199C10.935 8.15099 10.6725 8.00699 10.434 7.97849C10.353 7.96949 10.272 7.96049 10.191 7.95449C9.98957 7.94449 9.78772 7.94649 9.58651 7.96049V7.962Z" fill="#23D154"/>
                         </svg>
