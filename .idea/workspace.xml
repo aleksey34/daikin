@@ -19,21 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde0f4e8-bc43-4e0c-a0e4-7c5e70fdf814" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/inc/daikin-custom-shortcodes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_short-code.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_el-table-sections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_el-table-sections.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_testimonials-elementor-carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_testimonials-elementor-carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_top-nav-panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_top-nav-panel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-part/top-nav-panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-part/top-nav-panel.php" afterDir="false" />
-    </list>
+    <list default="true" id="bde0f4e8-bc43-4e0c-a0e4-7c5e70fdf814" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,6 +103,7 @@
       <workItem from="1613489362631" duration="179000" />
       <workItem from="1613546229687" duration="1249000" />
       <workItem from="1613577252775" duration="1888000" />
+      <workItem from="1613664888590" duration="311000" />
     </task>
     <servers />
   </component>
