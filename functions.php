@@ -19,13 +19,17 @@ require_once  get_stylesheet_directory() . "/inc/carbon-fields-init.php";
 require_once get_stylesheet_directory() . '/inc/TGM-settings.php';
 
 
+/**
+ *
+ * custom shortcodes
+ */
+require_once get_stylesheet_directory() . '/inc/daikin-custom-shortcodes.php';
+
 
 
 add_action('ocean_before_outer_wrap' , function (){
     get_template_part('/template-part/top-nav-panel');
 }   , 100);
-
-
 
 
 

@@ -20,15 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bde0f4e8-bc43-4e0c-a0e4-7c5e70fdf814" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scss/_contact-form-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/daikin-custom-shortcodes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_short-code.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/TGM-settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/TGM-settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/carbon-custom-fields-options/theme-option.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/carbon-custom-fields-options/theme-option.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_el-table-sections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_el-table-sections.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_testimonials-elementor-carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_testimonials-elementor-carousel.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_top-nav-panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_top-nav-panel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
@@ -109,7 +109,14 @@
       <workItem from="1613030708761" duration="5607000" />
       <workItem from="1613064310336" duration="3859000" />
       <workItem from="1613117103349" duration="4212000" />
-      <workItem from="1613145616225" duration="2013000" />
+      <workItem from="1613145616225" duration="7301000" />
+      <workItem from="1613290997489" duration="3650000" />
+      <workItem from="1613335110372" duration="672000" />
+      <workItem from="1613405969515" duration="4471000" />
+      <workItem from="1613466179993" duration="3311000" />
+      <workItem from="1613489362631" duration="179000" />
+      <workItem from="1613546229687" duration="1249000" />
+      <workItem from="1613577252775" duration="1888000" />
     </task>
     <servers />
   </component>

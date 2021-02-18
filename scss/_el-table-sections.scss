@@ -1,34 +1,76 @@
-#links-section ul>li {
-  //padding: 12px 10px 0 10px;
-  padding: 10px 15px;
-  background-color: #e6f3ff;
+//#links-section ul>li {
+//  //padding: 12px 10px 0 10px;
+//  padding: 10px 15px;
+//  background-color: #e6f3ff;
+//
+//}
+//#price-section ul>li{
+//  background-color: #e6f3ff;
+//  padding: 14px 15px;
+//}
+//#price-section ul li:nth-of-type(2n){
+//  background-color: #fff;
+//}
+//
+//
+//
+//#links-section ul li:nth-of-type(2n) {
+//  background-color: #fff;
+//}
+//#price-section ul li>*{
+//display: flex;
+//  justify-content: space-between;
+//width: 100%;
+//
+//}
+//#price-section ul li:first-child >*{
+//  display: flex;
+//  justify-content: space-around;
+//  font-weight: 800;
+//  font-size: 1.4rem;
+//}
+//#price-section ul li> * >*{
+//padding:0 ; margin:0;
+//}
 
-}
-#price-section ul>li{
-  background-color: #e6f3ff;
-  padding: 14px 15px;
-}
-#price-section ul li:nth-of-type(2n){
-  background-color: #fff;
-}
-
-
-
-#links-section ul li:nth-of-type(2n) {
-  background-color: #fff;
-}
-#price-section ul li>*{
-display: flex;
-  justify-content: space-between;
-width: 100%;
-
-}
-#price-section ul li:first-child >*{
+// add class for elementor list styles
+.el-list-text-between  ul li>*{
   display: flex;
-  justify-content: space-around;
-  font-weight: 800;
-  font-size: 1.4rem;
+  justify-content: space-between;
+  width: 100%;
+  padding: 14px 10px 0 10px !important;
 }
-#price-section ul li> * >*{
-padding:0 ; margin:0;
+
+
+.el-list-text-between-first-line-title ul li>*{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 14px 10px 0 10px !important;
+}
+.el-list-text-between-first-line-title ul li:first-child >*{
+    justify-content: space-around;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+//--------------------------
+.el-list-odd-even-bg  ul li{
+  display: flex;
+  background-color: #e6f3ff ;
+}
+.el-list-odd-even-bg  ul li:nth-of-type(2n) {
+  background-color: #fff;
+}
+// ----------------------
+.el-list-sm  ul li{
+  padding: 7px 7px !important ;
+
+}
+.el-list-md ul li{
+  padding: 10px 10px !important;
+
+}
+.el-list-large ul li {
+ padding: 12px 12px !important;
+
 }
