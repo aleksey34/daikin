@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde0f4e8-bc43-4e0c-a0e4-7c5e70fdf814" name="Default Changelist" comment="" />
+    <list default="true" id="bde0f4e8-bc43-4e0c-a0e4-7c5e70fdf814" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/inc/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-part/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/carbon-fields-init.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/carbon-fields-init.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +52,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1o1iY6c5qDfgdjiT2E7Eak54mmv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,7 +63,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../sitedb1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/inc" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -64,9 +73,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\daikin\wp-content\themes\daikin\inc" />
       <recent name="C:\OpenServer\domains\daikin\wp-content\themes\daikin\scss" />
       <recent name="C:\OpenServer\domains\daikin\wp-content\themes\daikin" />
-      <recent name="C:\OpenServer\domains\daikin\wp-content\themes\daikin\inc" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -110,6 +119,9 @@
       <workItem from="1613833227953" duration="60000" />
       <workItem from="1613840699700" duration="57000" />
       <workItem from="1613848633813" duration="79000" />
+      <workItem from="1618646298501" duration="747000" />
+      <workItem from="1624780006338" duration="1547000" />
+      <workItem from="1624865038811" duration="594000" />
     </task>
     <servers />
   </component>

@@ -44,3 +44,9 @@ function daikin_child_theme_scripts() {
     wp_enqueue_style( 'daikin-theme-style',  get_stylesheet_directory_uri()  . '/style.css');
 //    wp_enqueue_style( 'style_name_1', trailingslashit( get_stylesheet_directory_uri() ) . '/assets/your_style_name.css');
 }
+
+
+/**
+ * Admin Panel Footer
+ */
+require_once get_stylesheet_directory()  . '/inc/alex-admin-panel-footer.php';

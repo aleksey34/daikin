@@ -2,7 +2,7 @@
 //namespace Carbon_Fields;
 use Carbon_Fields\Container;
 use Carbon_Fields\Field;
-
+if(!defined("ABSPATH")) exit;
 
 //
 //add_action( 'carbon_fields_register_fields', 'crb_attach_theme_options' );
